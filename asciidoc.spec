@@ -1,12 +1,13 @@
 Summary:	A tool for converting text files to various formats
 Name:		asciidoc
-Version:	8.6.8
-Release:	3
+Version:	8.6.9
+Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://downloads.sourceforge.net/asciidoc/%{name}-%{version}.tar.gz
-# Source0-md5:	6ffff1ab211f30481741ce4d1e4b12bf
+# Source0-md5:	c59018f105be8d022714b826b0be130a
 URL:		http://www.methods.co.nz/asciidoc/index.html
+BuildRequires:	rpm-pythonprov
 Requires:	python
 Requires:	python-modules
 BuildArch:	noarch
